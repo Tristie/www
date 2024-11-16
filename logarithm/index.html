@@ -219,7 +219,7 @@ description: Login Webview
         instanceElement.href = instanceConfig?.frontend
 
         const timeElement = post.querySelector('time')
-        timeElement.innerText = getRelativeTime(new Date(+date - 18000000))
+        timeElement.innerText = getRelativeTime(new Date(date))
         timeElement.dateTime = date.toISOString()
         timeElement.title = date.toLocaleString()
 
