@@ -16,7 +16,8 @@ body {
 	background-color: var(--background);
 	color: var(--text-color);
 	font-family: "Gowun Batang", serif;
-	padding: clamp(1em, 2vw, 2em);
+	padding-inline: clamp(0.75em, 2vw, 2em);
+	padding-block: clamp(1em, 2vw, 2em);
 	font-size: large;
 	accent-color: var(--primary);
 
